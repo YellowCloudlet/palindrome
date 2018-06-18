@@ -22,7 +22,7 @@ Since we took l (step) rather large, our sample may not be exact, for example 31
 
 Where the results that satisfy us lie below the graph, that is, the graph itself is a set of boundary values (10-digit numbers when multiplying values). Let's make a more detailed table on the schedule to see how the product of different multipliers behaves:
 
-![Иллюстрация к проекту](https://github.com/YellowCloudlet/palindrome/raw/master/photoes/image (1).png)
+![Иллюстрация к проекту](https://github.com/YellowCloudlet/palindrome/raw/master/photoes/last.png)
 
 As we see the more the multipliers diverge, the less their product as a result, and since we need to find the maximum palindrome, we can conclude that our factors lie within the approximate range of 31000 to 33000, and considering our l (step = 1000), we expand admission, respectively, to + - l, that is, in the end our factors will lie in such a boundary from 30,000 to 34,000.
 Now we know exactly where to find our factors, which means we can speed up the palindrome search algorithm at times, because we do not need to check for numbers 10,000 <x <30000 + 34000 <x <99999. That's how you can simply and effectively optimize this task.
